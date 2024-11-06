@@ -1,0 +1,12 @@
+activation_key: A-M-c
+cursor_size: 15
+hint: f
+hint2: F
+exit: esc
+exit: A-M-c
+buttons:  space , return
+speed: 500
+max_speed: 2000
+decelerator_speed: 100
+accelerator_acceleration: 20000
+normal_system_cursor: 1
