@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/usr/local/bin/warpd --config ~/dotfiles/warpd/.config/warpd/config
+Exec=/usr/local/bin/warpd
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
