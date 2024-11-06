@@ -4,10 +4,11 @@ hint: f
 hint2: F
 exit: esc
 exit: A-M-c
-buttons:  space , return
+buttons:  space , Return
 speed: 500
 max_speed: 2000
-decelerator_speed: 100
+decelerator_speed: 200
 accelerator_acceleration: 20000
 normal_system_cursor: 1
 hint_size: 25
+hint_fgcolor: #ffffff
