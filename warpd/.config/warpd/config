@@ -10,3 +10,4 @@ max_speed: 2000
 decelerator_speed: 100
 accelerator_acceleration: 20000
 normal_system_cursor: 1
+hint_size: 25
