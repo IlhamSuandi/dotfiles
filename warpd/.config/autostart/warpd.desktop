@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/local/bin/warpd --config ~/dotfiles/warpd/.config/warpd/config
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Warpd
+Comment=Start Warpd on login
