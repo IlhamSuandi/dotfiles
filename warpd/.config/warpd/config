@@ -6,9 +6,10 @@ exit: esc
 exit: A-M-c
 buttons:  space , Return
 speed: 500
-max_speed: 2000
+max_speed: 1000000
 decelerator_speed: 200
-accelerator_acceleration: 20000
+acceleration: 700
+accelerator_acceleration: 15000
 normal_system_cursor: 1
 hint_size: 25
 hint_fgcolor: #ffffff
