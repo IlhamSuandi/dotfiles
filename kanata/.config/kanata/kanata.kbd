@@ -1,0 +1,60 @@
+(defsrc
+)
+
+(defvar 
+  tht 200
+  thr 200
+)
+
+(defalias
+  delete (tap-hold $tht $tht bspc C-bspc)
+  mvlft (tap-hold $tht $tht left C-left)
+  mvrgt (tap-hold $tht $tht right C-right)
+  mvup (tap-hold $tht $tht up C-up)
+  mvdn (tap-hold $thr $tht down C-down)
+)
+
+(deflayermap (main)
+  caps (layer-while-held l1)
+  ralt lctl
+  ' (tap-hold $thr $thr ' (layer-while-held num))
+)
+
+(deflayermap (l1)
+  spc esc
+  ; S-`
+  ' `
+  h @mvlft
+  j @mvdn
+  k @mvup
+  l @mvrgt
+  d @delete
+  lsft caps
+  ralt (layer-while-held options)
+  ret A-M-c
+  f A-M-x
+)
+
+(deflayermap (options)
+  j vold
+  k volu
+  h brdown
+  l brup
+  s pp
+  p prev
+  n next
+)
+
+(deflayermap (num)
+  a 1
+  s 2
+  d 3
+  f 4
+  g 5
+  h 6
+  j 7
+  k 8
+  l 9
+  ; 0
+  ralt ctl
+)
