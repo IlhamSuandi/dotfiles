@@ -3,7 +3,7 @@
 
 (defvar 
   tht 200
-  thr 200
+  thr 500
 )
 
 (defalias
@@ -11,16 +11,57 @@
   mvlft (tap-hold $tht $tht left C-left)
   mvrgt (tap-hold $tht $tht right C-right)
   mvup (tap-hold $tht $tht up C-up)
-  mvdn (tap-hold $thr $tht down C-down)
+  mvdn (tap-hold $tht $tht down C-down)
 )
 
 (deflayermap (main)
-  caps (layer-while-held l1)
-  ralt lctl
-  ' (tap-hold $thr $thr ' (layer-while-held num))
+  bspc ✗
+  caps (tap-dance 1000 ((layer-while-held l1) (layer-while-held l2)))
+  ralt (tap-dance 1000 (rctl C-bspc))
 )
 
 (deflayermap (l1)
+  q S-1 ;; !
+  w S-2 ;; @
+  e S-[ ;; {
+  r S-] ;; }
+  a S-3 ;; #
+  s S-4 ;; $
+  d S-9 ;; (
+  f S-0 ;; )
+  z S-5 ;; %
+  x S-6 ;; ^
+  c [   ;; [
+  v ]   ;; ]
+
+  t -   ;; -
+  y S-= ;; +
+  g S-- ;; _
+  h =   ;; =
+  b S-7 ;; &
+  n S-8 ;; *
+
+  p S-\ ;; |
+  ; S-` ;; ~
+  ' `   ;; `
+
+  m 1
+  , 2
+  . 3
+  j 4
+  k 5
+  l 6
+  u 7
+  i 8
+  o 9
+  / 0
+
+  spc @delete
+  ret esc
+  alt (layer-while-held browser-nav)
+)
+
+(deflayermap (l2)
   spc esc
   ; S-`
   ' `
@@ -28,9 +69,10 @@
   j @mvdn
   k @mvup
   l @mvrgt
-  d @delete
+  d bspc
   lsft caps
-  ralt (layer-while-held options)
+  alt (layer-while-held options)
+  c A-M-h
   ret A-M-c
   f A-M-x
 )
@@ -45,16 +87,25 @@
   n next
 )
 
-(deflayermap (num)
-  a 1
-  s 2
-  d 3
-  f 4
-  g 5
-  h 6
-  j 7
-  k 8
-  l 9
-  ; 0
-  ralt ctl
+(deflayermap (browser-nav)
+  q C-A-1
+  w C-A-2
+  e C-A-3 
+  r C-A-4
+  t C-A-5
+  y C-A-6
+  u C-A-7
+  i C-A-8
+  o C-A-9
+
+  a C-1
+  s C-2
+  d C-3
+  f C-4
+  g C-5
+  z C-6
+  x C-7
+  c C-8
+  v C-9
 )
+
