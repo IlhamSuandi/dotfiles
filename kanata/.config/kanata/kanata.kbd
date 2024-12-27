@@ -63,8 +63,7 @@
 
 (deflayermap (l2)
   spc esc
-  ; S-`
-  ' `
+  ; A-M-h
   h @mvlft
   j @mvdn
   k @mvup
