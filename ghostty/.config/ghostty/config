@@ -3,8 +3,9 @@ font-family = CaskaydiaCove Nerd Font
 font-family-bold = CaskaydiaCove NF SemiBold
 font-family-italic = CaskaydiaCove Nerd Font Italic
 font-family-bold-italic = CaskaydiaCove Nerd Font SemiBold Italic
-background-opacity = 0.8
+background-opacity = 0.9
 gtk-titlebar = false
 bold-is-bright = false
 background = #1d2125
 adjust-cursor-thickness = 3
+keybind = ctrl+shift+n=ignore
