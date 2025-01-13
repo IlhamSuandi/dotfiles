@@ -9,3 +9,5 @@ bold-is-bright = false
 background = #1d2125
 adjust-cursor-thickness = 3
 keybind = ctrl+shift+n=ignore
+keybind = ctrl+enter=ignore
+keybind = alt+enter=toggle_fullscreen
