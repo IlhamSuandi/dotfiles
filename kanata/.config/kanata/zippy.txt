@@ -1,0 +1,160 @@
+--english	
+dy	day 
+sr	sorry 
+dy 1	monday 
+dy 2	tuesday 
+dy 3	wednesday 
+dy 4	thursday 
+dy 5	firday 
+dy 6	saturday 
+dy 7	sunday 
+guy	guys 
+lek	like 
+lv	live 
+cod	code 
+cod g	coding 
+disc	discord 
+
+--programming	
+fn	func()
+fn n	function()
+cons	const 
+csl	console
+csl l	console.log()
+csl e	console.error()
+csl i	console.info()
+itf	interface
+use s	const [,] = useState()
+use e	useEffect(() => {}, [])
+ex	export 
+ex d	export default 
+str	string
+typ	type
+
+--bahasa	
+knp	kenapa 
+yg	yang 
+syg	sayaang 
+dgn	dengan 
+gmn	gimana 
+brp	berapa 
+blg	bilang 
+mlm	malem 
+pgi	pagi 
+mks	makasih 
+sbl	sebelum 
+trm	terima 
+ksh	kasih 
+org	orang 
+mmg y	memangnya 
+emg	emang 
+emg y	emangnya 
+smnt	sementara 
+jgn	jangan 
+lp	lupa 
+cakp	cakep 
+ckp	cukup 
+mrk	mereka 
+skl	sekali 
+prt	pertama 
+dtg	datang 
+jg	juga 
+dr	dari 
+tgh	tengah 
+hadu	haduh 
+mkn	makan 
+mky	makanya 
+mkn y	makannya 
+mkn n	makanan 
+mkn n y	makanannya 
+ntn	nonton 
+bs	bisa 
+bgt	banget 
+tp	tapi 
+udh	udah 
+sm	sama 
+dlu	dulu 
+sbr	sabar 
+plg	pulang 
+krn	karena 
+byk	banyak 
+kmna	kemana 
+mn	mana 
+trmk	terimakasih 
+siang	siang 
+blm	belum 
+lg	lagi 
+mw	mau 
+mw p	maupun 
+bru	baru 
+gtu	gitu 
+stlh	setelah 
+mnrt	menurut 
+kngn	kangen 
+gw	gw 
+gk	gak 
+prg	pergi 
+tamb	tambah 
+tamb k	tambahkan 
+marh	marah 
+marh 2	marah marah 
+prl	perlu 
+pk	pake 
+mslh	masalah 
+ky	kaya 
+ky k	kayak 
+ky k n	kayaknya 
+trus	terus 
+ptg	penting 
+hrs	harus 
+bkl	bakal 
+apa	apa 
+apa p	apapun 
+bgs	bagus 
+klr	kelar 
+mlai	mulai 
+mul	mulu 
+klw	kalau 
+bgn	bangun 
+pts	pantes 
+bwt	buat 
+bys	biasa 
+td	tadi 
+td k	tidak 
+td r	tidur 
+ttg	tentang 
+dn	dan 
+tlh	telah 
+biar	biar 
+byar	bayar 
+hr	hari 
+hr 1	senin 
+hr 2	selasa 
+hr 3	rabu 
+hr 4	kamis 
+hr 5	jumat 
+hr 6	sabtu 
+hr 7	minggu 
+blh	boleh 
+krj	kerja 
+jls	jelas 
+cpt	cepat 
+wktu	waktu 
+gd	gede 
+dkt	deket 
+dikt	dikit 
+kta	kata 
+kta 2	kata kata
+kta 2 n	kata katanya
+kta n	katanya 
+hbs	habis 
+msh	masih 
+skrg	sekarang 
+smoga	semoga 
+cb	coba 
+tkt	takut 
+tkt n	takutnya 
+klo	kalo 
+kap	kapan 
+mls	males 
+mls n	malesnya 
