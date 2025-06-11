@@ -106,32 +106,3 @@
   c C-8
   v C-9
 )
-
-(defzippy-experimental
-  zippy.txt
-  on-first-press-chord-deadline 300
-  idle-reactivate-time          200
-  smart-space-punctuation (? ! . , ; :)
-  output-character-mappings (
-    ! S-1
-    ? S-/
-    % S-5
-    "(" S-9
-    ")" S-0
-    "{" S-[
-    "}" S-]
-    : S-;
-    < S-,
-    > S-.
-    r#"""# S-'
-    | S-\
-    _ S--
-    ® AG-r
-    ;; In case you use dead keys or compose keys
-    ;; where multiple keys are pressed
-    ;; to produce a single backspaceable symbol,
-    ;; use no-erase or single-output
-    ’ (no-erase `)
-    é (single-output ' e)
-  )
-)
