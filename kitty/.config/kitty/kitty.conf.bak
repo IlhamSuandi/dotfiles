@@ -7,7 +7,7 @@ bold_italic_font CaskaydiaCoveNF-SemiBoldItalic
 # cursor_trail 5
 # cursor_trail_decay 0.1 0.4
 
-font_size 16
+font_size 12
 disable_ligatures never
 
 # Cursors
@@ -69,6 +69,6 @@ background_opacity 0.98
 background_blur 10
 
 # BEGIN_KITTY_THEME
-# Silvia
+# Yael
 include current-theme.conf
 # END_KITTY_THEME
